@@ -40,21 +40,21 @@ print('Тип переменой: ', type(myDict), myDict)
 strTextOne = 'Это '
 strTextTwo = 'Восхитительно'
 strTextThree = strTextOne + strTextTwo
-print('Pythe', strTextThree)
+print(strTextOne, '+', strTextTwo, '=', strTextThree)
 
 # Создать 2 переменные Integer, создать переменную в которой суммируете эти переменные. Вывести в консоль.
 digOne = 635
 digTwo = 923
 total = digOne + digTwo
-print('Результат сложения 635 + 923 =', total)
+print('Результат сложения', digOne, '+', digTwo, '=', total)
 point13 = digOne / digTwo
-print('Результат деления  635 / 923 =', point13)
+print('Результат деления', digOne, '/', digTwo, '=', point13)
 point14 = digOne * digTwo
-print('Результат умножения 635 * 923 =', point14)
+print('Результат умножения', digOne, '*', digTwo, '=', point14)
 digThree = 9
 digFour = 3
-point15 = digThree / digFour
-print('Результат деления 9 / 3 =', point15)
+point15 = digTwo // digFour
+print('Результат деления без отстатка', digTwo, '//', digFour, '=', point15)
 point16 = digTwo % digThree
-print('Остаток от деления =', point16)
+print('Остаток от деления', digTwo, '%', digThree, '=', point16)
 print((7 + 12) * 3 + 7 * 4 - 44 / 2 * 0.4)

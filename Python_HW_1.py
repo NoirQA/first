@@ -57,4 +57,4 @@ point15 = digTwo // digFour
 print('Результат деления без отстатка', digTwo, '//', digFour, '=', point15)
 point16 = digTwo % digThree
 print('Остаток от деления', digTwo, '%', digThree, '=', point16)
-print((7 + 12) * 3 + 7 * 4 - 44 / 2 * 0.4)
+print((7 + 12) ** 3 + 7 * 4 - 44 / 2 ** 4)

@@ -58,3 +58,8 @@ print('Результат деления без отстатка', digTwo, '//',
 point16 = digTwo % digThree
 print('Остаток от деления', digTwo, '%', digThree, '=', point16)
 print((7 + 12) ** 3 + 7 * 4 - 44 / 2 ** 4)
+
+# Дополение HW_1 из второго потока
+
+print(strTextTwo, str(digTwo))
+print(strTextTwo + str(digTwo))

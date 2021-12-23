@@ -10,7 +10,6 @@ b = 5
 #     print('odd')
 b += 20 + 100
 
-print('Result=',b)
+print('Result=', b)
 
 # print('Result=', result, type(result)) # Так норм, но работает и так и так !
-

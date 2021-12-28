@@ -32,3 +32,18 @@ item_2 = 20 # Even
 
 result_division = item_1 / item_2
 print('result_division = ', result_division)
+
+result_m_floor = math.floor(result_division)
+print('результат округление', result_division,'в меньшую сторону =' ,result_m_floor)
+
+result_m_ceil = math.ceil(result_division)
+print('результат округление', result_division,'в большую сторону =',result_m_ceil)
+
+result_int = int(result_division)
+print('результат округление', result_division,'явным приведением "int" =',result_int)
+
+result_no_division_loss = item_1 // item_2
+print('результат деления ', item_1, 'на',item_2, 'без отстатка =',result_no_division_loss)
+
+result_division_loss2 = item_1 % item_2
+print('отстаток от деления',item_1, "%",item_2,'Равен',result_division_loss2)

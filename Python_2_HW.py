@@ -82,8 +82,11 @@ print('Результат вычетания =',b_item_relult_subtr)
 b_item_relult_multi = b_item_t * b_item_f
 print('Результат умножения =',b_item_relult_multi)
 
-# b_item_relult_division = b_item_t / b_item_f
-# print('Результат деления', b_item_relult_division)
+try:
+    b_item_relult_division = b_item_t / b_item_f
+except ZeroDivisionError:
+    b_item_relult_division = 0
+print('Результат деления', b_item_relult_division)
 
 b_item_1_int = int(b_item_t)
 print(b_item_1_int)

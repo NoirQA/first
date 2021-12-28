@@ -71,5 +71,22 @@ print(item_3)
 item_3 %= item_3
 print(item_3)
 
+b_item_t = True
+b_item_f = False
+b_item_relult_sum = b_item_f + b_item_t
+print('Результат сложения =',b_item_relult_sum )
 
+b_item_relult_subtr = b_item_t - b_item_f
+print('Результат вычетания =',b_item_relult_subtr)
 
+b_item_relult_multi = b_item_t * b_item_f
+print('Результат умножения =',b_item_relult_multi)
+
+# b_item_relult_division = b_item_t / b_item_f
+# print('Результат деления', b_item_relult_division)
+
+b_item_1_int = int(b_item_t)
+print(b_item_1_int)
+
+b_item_2_int = int(b_item_f)
+print(b_item_2_int)

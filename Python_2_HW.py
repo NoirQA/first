@@ -34,7 +34,7 @@ result_division = item_1 / item_2
 print('result_division = ', result_division)
 
 result_m_floor = math.floor(result_division)
-print('результат округление', result_division,'в меньшую сторону =' ,result_m_floor)
+print('результат округление', result_division,'в меньшую сторону =',result_m_floor)
 
 result_m_ceil = math.ceil(result_division)
 print('результат округление', result_division,'в большую сторону =',result_m_ceil)

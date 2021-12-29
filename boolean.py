@@ -5,7 +5,7 @@ age = 32
 weight = 97
 salary = 1000
 
-z = age == 323 or weight == 98 or salary == 11000
+z = age == 323 or weight == 98 and salary == 11000
 
 print('Z_result =', z)
 

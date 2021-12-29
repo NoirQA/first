@@ -85,8 +85,8 @@ print('Результат умножения =',b_item_relult_multi)
 try:
     b_item_relult_division = b_item_t / b_item_f
 except ZeroDivisionError:
-    b_item_relult_division = 0
-print('Результат деления', b_item_relult_division)
+    print('Деление на 0, не надо так')
+
 
 b_item_1_int = int(b_item_t)
 print(b_item_1_int)
